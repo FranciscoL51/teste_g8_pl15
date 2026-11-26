@@ -11,7 +11,7 @@ class SimulacaoTest {
     private static final double EPS = 1e-9;
 
     private Simulacao novaSimulacao() {
-        return new Simulacao(new Bola(2.0, 6.3, 0.0, 0.0));
+        return new Simulacao(new Bola(2.0, 6.3, 2.0, 2.0));
     }
 
     @Test
